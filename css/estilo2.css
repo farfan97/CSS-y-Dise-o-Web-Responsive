@@ -1,0 +1,207 @@
+@@font-face {
+	font-family: "dancing";
+	src: url("dancing.ttf" rel="stylesheet");
+}
+body{
+	background-color: black;
+	font-family: 'Dancing Script', cursive;
+	}
+	header{
+		animation: entrada 1s;
+	}
+	@-webkit-keyframes entrada{
+		0%{
+			margin-top: 150%;
+		}
+		60%{
+			margin-top: -5%;
+		}
+		100%{
+			margin-top: 0%;
+		}
+	}
+.portada{
+	background-color: #5b7989;
+	width: 900px;
+	height: 100px;
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	display: block;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.portada h1{
+		float: left;
+		padding-top: 25px;
+		padding-left: 10px;
+		font-size: 2.5em;
+		display: block;
+		margin: auto;
+		color: white;
+		text-shadow: 2px 2px 2px #02010a;
+	}
+	.portada nav {
+		float: right;
+		padding-top: 30px;
+		padding-right: 10px;
+		font-size: 1.5em;
+		display: block;
+		margin: auto;
+		text-decoration-color: white;
+		word-spacing: 10px;
+		}
+	.portada nav a{
+		color: white !important;
+	}
+	.actual{
+		text-decoration: none !important;
+	}
+
+	.prueba{
+		width: 300px;
+		height: 250px;
+		background-color: #d5c75f;
+		display: flex;
+		justify-content: center;
+		margin: auto;
+	}
+	.pruebas{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.principal{
+		width: 900px;
+		margin: auto;
+	}
+	.arriba{
+		display: flex;
+	}
+	.abajo{
+		display: flex;
+	}
+
+	.pie{
+		background-color: #C6d5c5;
+		width: 850px;
+		height: 100%;
+		border-radius: 0px 0px 10px 10px;
+		-moz-border-radius: 0px 0px 10px 10px;
+		-webkit-border-radius: 0px 0px 10px 10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 50px;
+	}
+	.contacto h2{
+		text-align: left;
+	}
+	.contacto p{
+		text-align: left;
+		color: black !important;
+	}
+	.contacto p a{
+		color: black !important;
+	}
+	.terminos h2{
+		text-align: left;
+	}
+	.terminos p{
+		text-align: left;
+		color: black !important;
+	}
+	.redessociales h2{
+		text-align: left;
+	}
+	.redessociales p{
+		text-align: left;
+		color: black !important;
+	}
+	.derechos h2{
+		text-align: left;
+	}
+	.derechos p{
+		text-align: left;
+		color: black !important;
+	}
+	.pie{
+		display: flex;
+	}
+	.contacto{
+		width: 225px;
+	}
+	.terminos{
+		width: 225px;
+	}
+	.redessociales{
+		width: 225px;
+	}
+	.derechos{
+		width: 225px;
+	}
+	img{
+		box-shadow: 2px 2px 2px #02010a;
+	}
+	.blur{
+		filter: blur(10px);
+	}
+	.gris{
+		filter: grayscale(100%);
+	}
+	.sepia{
+		-webkit-filter: sepia(90%);
+	}
+	@media (max-width:900px){
+		.portada {
+		display: flex;
+		margin: auto;
+		width: 100%;
+		height: 200px;
+		flex-direction: column;
+		justify-content: center;
+		}
+		.prueba{
+			width: 100%;
+			background-color: #d5c75f;
+			display: flex;
+			justify-content: center;
+			margin: auto;
+		}
+		.pruebas{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		.principal{
+			width: 100%;
+			margin: auto;
+		}
+		.arriba{
+			display: block;
+		}
+		.abajo{
+			display: block;
+		}
+		.pie{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			padding-left: 10%;
+			height: auto;
+			width: 90%;
+		}
+		.contacto{
+			width: 80%;
+		}
+		.terminos{
+			width: 80%;
+		}
+		.redessociales{
+			width: 80%;
+		}
+		.derechos{
+			width: 80%;
+		}
+	}
